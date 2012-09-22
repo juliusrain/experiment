@@ -42,8 +42,8 @@ GRATINGS = ['h',
  'v'] # h for horizontal, v for vertical grating (shuffled using random.shuffle)
 DURV = 1500 #duration of visual stimulus
 DELAY = 0 #delay between trials
-DURA = 1500 #duration of auditory stimulus
-DURAINT = 100 #duration of interval of auditory stimulus within A
+DURA = 200 #duration of auditory stimulus
+DURAWAIT = 300 # duration of silence after auditory stimulus
 PAUSE = 15 #pause between trials
 JITTER = 1500 #jitter
 FREQ = 300 # frequency of the audio stimulation
